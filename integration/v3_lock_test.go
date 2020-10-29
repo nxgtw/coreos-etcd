@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
-	"go.etcd.io/etcd/contrib/recipes"
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/testutil"
+	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
+	"github.com/nxgtw/go.etcd.io/etcd/clientv3/concurrency"
+	"github.com/nxgtw/go.etcd.io/etcd/contrib/recipes"
+	"github.com/nxgtw/go.etcd.io/etcd/mvcc/mvccpb"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
 )
 
 func TestMutexSingleNode(t *testing.T) {

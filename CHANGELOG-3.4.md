@@ -58,8 +58,8 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.0...v3.4.0) and 
 - Require [*Go 1.11+*](https://github.com/etcd-io/etcd/pull/10045).
 - Use [Go module](https://github.com/etcd-io/etcd/pull/10063) for dependency management.
 - Move [`"github.com/coreos/etcd"`](https://github.com/etcd-io/etcd/issues/9965) to [`"github.com/etcd-io/etcd"`](https://github.com/etcd-io/etcd/issues/9965).
-  - Change import path to `"go.etcd.io/etcd"`.
-  - e.g. `import "go.etcd.io/etcd/raft"`.
+  - Change import path to `"github.com/nxgtw/go.etcd.io/etcd"`.
+  - e.g. `import "github.com/nxgtw/go.etcd.io/etcd/raft"`.
 - Make [`ETCDCTL_API=3 etcdctl` default](https://github.com/etcd-io/etcd/issues/9600).
   - Now, `etcdctl set foo bar` must be `ETCDCTL_API=2 etcdctl set foo bar`.
   - Now, `ETCDCTL_API=3 etcdctl put foo bar` could be just `etcdctl put foo bar`.
@@ -117,16 +117,16 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.3.0...v3.4.0) and 
 - Remove [`pkg/cors` package](https://github.com/etcd-io/etcd/pull/9490).
 - Change [`etcd --experimental-enable-v2v3`](TODO) flag to `etcd --enable-v2v3`; v2 storage emulation is now stable.
 - Move internal packages to `etcdserver`.
-  - `"github.com/coreos/etcd/alarm"` to `"go.etcd.io/etcd/etcdserver/api/v3alarm"`.
-  - `"github.com/coreos/etcd/compactor"` to `"go.etcd.io/etcd/etcdserver/api/v3compactor"`.
-  - `"github.com/coreos/etcd/discovery"` to `"go.etcd.io/etcd/etcdserver/api/v2discovery"`.
-  - `"github.com/coreos/etcd/etcdserver/auth"` to `"go.etcd.io/etcd/etcdserver/api/v2auth"`.
-  - `"github.com/coreos/etcd/etcdserver/membership"` to `"go.etcd.io/etcd/etcdserver/api/membership"`.
-  - `"github.com/coreos/etcd/etcdserver/stats"` to `"go.etcd.io/etcd/etcdserver/api/v2stats"`.
-  - `"github.com/coreos/etcd/error"` to `"go.etcd.io/etcd/etcdserver/api/v2error"`.
-  - `"github.com/coreos/etcd/rafthttp"` to `"go.etcd.io/etcd/etcdserver/api/rafthttp"`.
-  - `"github.com/coreos/etcd/snap"` to `"go.etcd.io/etcd/etcdserver/api/snap"`.
-  - `"github.com/coreos/etcd/store"` to `"go.etcd.io/etcd/etcdserver/api/v2store"`.
+  - `"github.com/coreos/etcd/alarm"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3alarm"`.
+  - `"github.com/coreos/etcd/compactor"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3compactor"`.
+  - `"github.com/coreos/etcd/discovery"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2discovery"`.
+  - `"github.com/coreos/etcd/etcdserver/auth"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2auth"`.
+  - `"github.com/coreos/etcd/etcdserver/membership"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/membership"`.
+  - `"github.com/coreos/etcd/etcdserver/stats"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2stats"`.
+  - `"github.com/coreos/etcd/error"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2error"`.
+  - `"github.com/coreos/etcd/rafthttp"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/rafthttp"`.
+  - `"github.com/coreos/etcd/snap"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/snap"`.
+  - `"github.com/coreos/etcd/store"` to `"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2store"`.
 - Change [snapshot file permissions](https://github.com/etcd-io/etcd/pull/9977): On Linux, the snapshot file changes from readable by all (mode 0644) to readable by the user only (mode 0600).
 
 ### Dependency

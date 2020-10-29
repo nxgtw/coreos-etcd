@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/lease/leasepb"
-	"go.etcd.io/etcd/mvcc/backend"
+	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/go.etcd.io/etcd/lease/leasepb"
+	"github.com/nxgtw/go.etcd.io/etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

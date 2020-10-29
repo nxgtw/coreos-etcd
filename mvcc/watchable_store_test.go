@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"github.com/nxgtw/go.etcd.io/etcd/lease"
+	"github.com/nxgtw/go.etcd.io/etcd/mvcc/backend"
+	"github.com/nxgtw/go.etcd.io/etcd/mvcc/mvccpb"
 	"go.uber.org/zap"
 )
 

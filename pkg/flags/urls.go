@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"strings"
 
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
 )
 
 // URLsValue wraps "types.URLs".

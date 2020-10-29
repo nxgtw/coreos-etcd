@@ -18,8 +18,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/embed"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/go.etcd.io/etcd/embed"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
 )
 
 func TestEtcd(t *testing.T) {

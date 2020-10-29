@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/raft/raftpb"
+	stats "github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2stats"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/go.etcd.io/etcd/raft"
+	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
 )
 
 func TestSendMessage(t *testing.T) {

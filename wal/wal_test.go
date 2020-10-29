@@ -24,10 +24,10 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal/walpb"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/fileutil"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/pbutil"
+	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	"github.com/nxgtw/go.etcd.io/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

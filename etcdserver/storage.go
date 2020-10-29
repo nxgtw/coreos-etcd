@@ -17,13 +17,13 @@ package etcdserver
 import (
 	"io"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal"
-	"go.etcd.io/etcd/wal/walpb"
+	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/snap"
+	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/pbutil"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	"github.com/nxgtw/go.etcd.io/etcd/wal"
+	"github.com/nxgtw/go.etcd.io/etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

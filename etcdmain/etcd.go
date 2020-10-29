@@ -26,17 +26,17 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/embed"
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/etcdhttp"
-	"go.etcd.io/etcd/etcdserver/api/v2discovery"
-	"go.etcd.io/etcd/pkg/fileutil"
-	pkgioutil "go.etcd.io/etcd/pkg/ioutil"
-	"go.etcd.io/etcd/pkg/osutil"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/proxy/httpproxy"
-	"go.etcd.io/etcd/version"
+	"github.com/nxgtw/go.etcd.io/etcd/embed"
+	"github.com/nxgtw/go.etcd.io/etcd/etcdserver"
+	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/etcdhttp"
+	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2discovery"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/fileutil"
+	pkgioutil "github.com/nxgtw/go.etcd.io/etcd/pkg/ioutil"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/osutil"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/transport"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/go.etcd.io/etcd/proxy/httpproxy"
+	"github.com/nxgtw/go.etcd.io/etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -45,7 +45,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/nxgtw/go.etcd.io/etcd", "etcdmain")
 
 var (
 	dirMember = dirType("member")

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"go.etcd.io/etcd/pkg/srv"
-	"go.etcd.io/etcd/pkg/transport"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/srv"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/transport"
 
 	"go.uber.org/zap"
 )

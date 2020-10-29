@@ -23,7 +23,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"go.etcd.io/etcd/pkg/fileutil"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/fileutil"
 )
 
 const downloadURL = `https://storage.googleapis.com/etcd/%s/etcd-%s-linux-amd64.tar.gz`

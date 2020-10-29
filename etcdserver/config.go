@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/pkg/netutil"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/netutil"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/transport"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
+	stats "github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2stats"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
 
 	"github.com/xiang90/probing"
 )

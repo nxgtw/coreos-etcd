@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
+	"github.com/nxgtw/go.etcd.io/etcd/integration"
+	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
 )
 
 // TestMain sets up an etcd cluster if running the examples.

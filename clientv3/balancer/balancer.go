@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/clientv3/balancer/picker"
+	"github.com/nxgtw/go.etcd.io/etcd/clientv3/balancer/picker"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc/balancer"
