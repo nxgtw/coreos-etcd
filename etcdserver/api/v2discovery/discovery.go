@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/client"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/transport"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/client"
+	"github.com/nxgtw/dp-etcd/pkg/transport"
+	"github.com/nxgtw/dp-etcd/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"
@@ -39,7 +39,7 @@ import (
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/nxgtw/go.etcd.io/etcd", "discovery")
+	plog = capnslog.NewPackageLogger("github.com/nxgtw/dp-etcd", "discovery")
 
 	ErrInvalidURL           = errors.New("discovery: invalid URL")
 	ErrBadSizeKey           = errors.New("discovery: size key is bad")

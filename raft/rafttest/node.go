@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/raft"
-	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	"github.com/nxgtw/dp-etcd/raft"
+	"github.com/nxgtw/dp-etcd/raft/raftpb"
 )
 
 type node struct {

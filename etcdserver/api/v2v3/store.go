@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/concurrency"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2error"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2store"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc/mvccpb"
+	"github.com/nxgtw/dp-etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3/concurrency"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2error"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2store"
+	"github.com/nxgtw/dp-etcd/mvcc/mvccpb"
 )
 
 // store implements the Store interface for V2 using

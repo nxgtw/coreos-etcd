@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"fmt"
 
-	pb "github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	pb "github.com/nxgtw/dp-etcd/raft/raftpb"
 )
 
 func (st StateType) MarshalJSON() ([]byte, error) {

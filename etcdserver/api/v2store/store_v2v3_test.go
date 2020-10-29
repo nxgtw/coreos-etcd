@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2store"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2v3"
-	"github.com/nxgtw/go.etcd.io/etcd/integration"
+	"github.com/nxgtw/dp-etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2store"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2v3"
+	"github.com/nxgtw/dp-etcd/integration"
 
 	"google.golang.org/grpc/grpclog"
 )

@@ -20,7 +20,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/nxgtw/go.etcd.io/etcd/version"
+	"github.com/nxgtw/dp-etcd/version"
 )
 
 func TestServeVersion(t *testing.T) {

@@ -21,10 +21,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/membership"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/rafthttp"
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/membership"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/rafthttp"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

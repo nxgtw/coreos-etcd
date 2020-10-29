@@ -19,10 +19,10 @@ import (
 	"path"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/membership"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2store"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/pbutil"
+	"github.com/nxgtw/dp-etcd/etcdserver/api"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/membership"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2store"
+	"github.com/nxgtw/dp-etcd/pkg/pbutil"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"

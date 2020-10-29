@@ -19,8 +19,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/functional/rpcpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/fileutil"
+	"github.com/nxgtw/dp-etcd/functional/rpcpb"
+	"github.com/nxgtw/dp-etcd/pkg/fileutil"
 
 	"go.uber.org/zap"
 )

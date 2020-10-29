@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/membership"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/mock/mockstorage"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/pbutil"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
-	"github.com/nxgtw/go.etcd.io/etcd/raft"
-	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/membership"
+	"github.com/nxgtw/dp-etcd/pkg/mock/mockstorage"
+	"github.com/nxgtw/dp-etcd/pkg/pbutil"
+	"github.com/nxgtw/dp-etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/raft"
+	"github.com/nxgtw/dp-etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

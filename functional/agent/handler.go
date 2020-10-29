@@ -25,10 +25,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/embed"
-	"github.com/nxgtw/go.etcd.io/etcd/functional/rpcpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/fileutil"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/proxy"
+	"github.com/nxgtw/dp-etcd/embed"
+	"github.com/nxgtw/dp-etcd/functional/rpcpb"
+	"github.com/nxgtw/dp-etcd/pkg/fileutil"
+	"github.com/nxgtw/dp-etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 )

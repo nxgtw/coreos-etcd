@@ -18,8 +18,8 @@ import (
 	"context"
 	"sync/atomic"
 
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/pkg/testutil"
 )
 
 type fakeCompactable struct {

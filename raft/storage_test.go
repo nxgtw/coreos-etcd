@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"testing"
 
-	pb "github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	pb "github.com/nxgtw/dp-etcd/raft/raftpb"
 )
 
 func TestStorageTerm(t *testing.T) {

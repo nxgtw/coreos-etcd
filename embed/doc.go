@@ -21,7 +21,7 @@ Launch an embedded etcd server using the configuration defaults:
 		"log"
 		"time"
 
-		"github.com/nxgtw/go.etcd.io/etcd/embed"
+		"github.com/nxgtw/dp-etcd/embed"
 	)
 
 	func main() {

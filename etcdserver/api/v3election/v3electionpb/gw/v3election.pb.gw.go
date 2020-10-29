@@ -9,7 +9,7 @@ It translates gRPC into RESTful JSON APIs.
 package gw
 
 import (
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v3election/v3electionpb"
 	"io"
 	"net/http"
 

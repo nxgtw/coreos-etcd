@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/transport"
+	"github.com/nxgtw/dp-etcd/pkg/transport"
 
 	"github.com/ghodss/yaml"
 )

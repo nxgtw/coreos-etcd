@@ -17,7 +17,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/nxgtw/go.etcd.io/etcd/version"
+	"github.com/nxgtw/dp-etcd/version"
 
 	"github.com/spf13/cobra"
 )

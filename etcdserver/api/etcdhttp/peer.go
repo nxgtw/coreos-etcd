@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/rafthttp"
-	"github.com/nxgtw/go.etcd.io/etcd/lease/leasehttp"
+	"github.com/nxgtw/dp-etcd/etcdserver"
+	"github.com/nxgtw/dp-etcd/etcdserver/api"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/rafthttp"
+	"github.com/nxgtw/dp-etcd/lease/leasehttp"
 
 	"go.uber.org/zap"
 )

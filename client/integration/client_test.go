@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/nxgtw/go.etcd.io/etcd/client"
-	"github.com/nxgtw/go.etcd.io/etcd/integration"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
+	"github.com/nxgtw/dp-etcd/client"
+	"github.com/nxgtw/dp-etcd/integration"
+	"github.com/nxgtw/dp-etcd/pkg/testutil"
 )
 
 // TestV2NoRetryEOF tests destructive api calls won't retry on a disconnection.

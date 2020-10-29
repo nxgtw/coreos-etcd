@@ -17,7 +17,7 @@ package integration
 import (
 	"io/ioutil"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3"
 
 	"google.golang.org/grpc/grpclog"
 )

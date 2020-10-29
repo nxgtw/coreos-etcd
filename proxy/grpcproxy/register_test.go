@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/naming"
-	"github.com/nxgtw/go.etcd.io/etcd/integration"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
+	"github.com/nxgtw/dp-etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3/naming"
+	"github.com/nxgtw/dp-etcd/integration"
+	"github.com/nxgtw/dp-etcd/pkg/testutil"
 
 	gnaming "google.golang.org/grpc/naming"
 )

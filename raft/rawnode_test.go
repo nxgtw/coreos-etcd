@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	"github.com/nxgtw/dp-etcd/raft/raftpb"
 )
 
 // TestRawNodeStep ensures that RawNode.Step ignore local message.

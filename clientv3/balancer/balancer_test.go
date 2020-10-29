@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/balancer/picker"
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/balancer/resolver/endpoint"
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/mock/mockserver"
+	"github.com/nxgtw/dp-etcd/clientv3/balancer/picker"
+	"github.com/nxgtw/dp-etcd/clientv3/balancer/resolver/endpoint"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/pkg/mock/mockserver"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

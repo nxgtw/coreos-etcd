@@ -19,11 +19,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/snap"
-	"github.com/nxgtw/go.etcd.io/etcd/lease"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc/backend"
-	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/snap"
+	"github.com/nxgtw/dp-etcd/lease"
+	"github.com/nxgtw/dp-etcd/mvcc"
+	"github.com/nxgtw/dp-etcd/mvcc/backend"
+	"github.com/nxgtw/dp-etcd/raft/raftpb"
 
 	"go.uber.org/zap"
 )

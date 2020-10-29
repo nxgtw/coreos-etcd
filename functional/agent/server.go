@@ -21,9 +21,9 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/nxgtw/go.etcd.io/etcd/embed"
-	"github.com/nxgtw/go.etcd.io/etcd/functional/rpcpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/proxy"
+	"github.com/nxgtw/dp-etcd/embed"
+	"github.com/nxgtw/dp-etcd/functional/rpcpb"
+	"github.com/nxgtw/dp-etcd/pkg/proxy"
 
 	"go.uber.org/zap"
 	"google.golang.org/grpc"

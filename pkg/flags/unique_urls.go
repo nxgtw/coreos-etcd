@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/pkg/types"
 )
 
 // UniqueURLs contains unique URLs

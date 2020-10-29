@@ -24,7 +24,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/expect"
+	"github.com/nxgtw/dp-etcd/pkg/expect"
 )
 
 type proxyEtcdProcess struct {

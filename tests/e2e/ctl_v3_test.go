@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/flags"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
-	"github.com/nxgtw/go.etcd.io/etcd/version"
+	"github.com/nxgtw/dp-etcd/pkg/flags"
+	"github.com/nxgtw/dp-etcd/pkg/testutil"
+	"github.com/nxgtw/dp-etcd/version"
 )
 
 func TestCtlV3Version(t *testing.T) { testCtl(t, versionTest) }

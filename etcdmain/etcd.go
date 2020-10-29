@@ -26,17 +26,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/embed"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/etcdhttp"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2discovery"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/fileutil"
-	pkgioutil "github.com/nxgtw/go.etcd.io/etcd/pkg/ioutil"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/osutil"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/transport"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
-	"github.com/nxgtw/go.etcd.io/etcd/proxy/httpproxy"
-	"github.com/nxgtw/go.etcd.io/etcd/version"
+	"github.com/nxgtw/dp-etcd/embed"
+	"github.com/nxgtw/dp-etcd/etcdserver"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/etcdhttp"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2discovery"
+	"github.com/nxgtw/dp-etcd/pkg/fileutil"
+	pkgioutil "github.com/nxgtw/dp-etcd/pkg/ioutil"
+	"github.com/nxgtw/dp-etcd/pkg/osutil"
+	"github.com/nxgtw/dp-etcd/pkg/transport"
+	"github.com/nxgtw/dp-etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/proxy/httpproxy"
+	"github.com/nxgtw/dp-etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
@@ -45,7 +45,7 @@ import (
 
 type dirType string
 
-var plog = capnslog.NewPackageLogger("github.com/nxgtw/go.etcd.io/etcd", "etcdmain")
+var plog = capnslog.NewPackageLogger("github.com/nxgtw/dp-etcd", "etcdmain")
 
 var (
 	dirMember = dirType("member")

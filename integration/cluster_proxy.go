@@ -19,10 +19,10 @@ package integration
 import (
 	"sync"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/namespace"
-	"github.com/nxgtw/go.etcd.io/etcd/proxy/grpcproxy"
-	"github.com/nxgtw/go.etcd.io/etcd/proxy/grpcproxy/adapter"
+	"github.com/nxgtw/dp-etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3/namespace"
+	"github.com/nxgtw/dp-etcd/proxy/grpcproxy"
+	"github.com/nxgtw/dp-etcd/proxy/grpcproxy/adapter"
 )
 
 var (

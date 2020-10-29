@@ -23,10 +23,10 @@ import (
 	"os"
 	"time"
 
-	v3 "github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	v3sync "github.com/nxgtw/go.etcd.io/etcd/clientv3/concurrency"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3lock/v3lockpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/report"
+	v3 "github.com/nxgtw/dp-etcd/clientv3"
+	v3sync "github.com/nxgtw/dp-etcd/clientv3/concurrency"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v3lock/v3lockpb"
+	"github.com/nxgtw/dp-etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

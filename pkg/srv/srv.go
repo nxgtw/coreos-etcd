@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/pkg/types"
 )
 
 var (

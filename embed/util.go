@@ -17,7 +17,7 @@ package embed
 import (
 	"path/filepath"
 
-	"github.com/nxgtw/go.etcd.io/etcd/wal"
+	"github.com/nxgtw/dp-etcd/wal"
 )
 
 func isMemberInitialized(cfg *Config) bool {

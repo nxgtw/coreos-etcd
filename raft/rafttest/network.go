@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	"github.com/nxgtw/dp-etcd/raft/raftpb"
 )
 
 // a network interface

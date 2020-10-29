@@ -21,8 +21,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/lease"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/report"
+	"github.com/nxgtw/dp-etcd/lease"
+	"github.com/nxgtw/dp-etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 )

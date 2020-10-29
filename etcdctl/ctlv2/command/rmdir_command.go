@@ -18,7 +18,7 @@ import (
 	"errors"
 
 	"github.com/urfave/cli"
-	"github.com/nxgtw/go.etcd.io/etcd/client"
+	"github.com/nxgtw/dp-etcd/client"
 )
 
 // NewRemoveDirCommand returns the CLI command for "rmdir".

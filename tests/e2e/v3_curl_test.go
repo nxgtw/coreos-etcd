@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"testing"
 
-	epb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3election/v3electionpb"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
+	epb "github.com/nxgtw/dp-etcd/etcdserver/api/v3election/v3electionpb"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/pkg/testutil"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 )

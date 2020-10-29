@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/concurrency"
+	"github.com/nxgtw/dp-etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3/concurrency"
 )
 
 // ExampleSTM_apply shows how to use STM with a transactional

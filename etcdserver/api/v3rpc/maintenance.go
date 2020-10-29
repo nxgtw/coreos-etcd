@@ -19,14 +19,14 @@ import (
 	"crypto/sha256"
 	"io"
 
-	"github.com/nxgtw/go.etcd.io/etcd/auth"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc/backend"
-	"github.com/nxgtw/go.etcd.io/etcd/raft"
-	"github.com/nxgtw/go.etcd.io/etcd/version"
+	"github.com/nxgtw/dp-etcd/auth"
+	"github.com/nxgtw/dp-etcd/etcdserver"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/mvcc"
+	"github.com/nxgtw/dp-etcd/mvcc/backend"
+	"github.com/nxgtw/dp-etcd/raft"
+	"github.com/nxgtw/dp-etcd/version"
 
 	"go.uber.org/zap"
 )

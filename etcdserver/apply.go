@@ -21,12 +21,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/auth"
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/lease"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc/mvccpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/auth"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/lease"
+	"github.com/nxgtw/dp-etcd/mvcc"
+	"github.com/nxgtw/dp-etcd/mvcc/mvccpb"
+	"github.com/nxgtw/dp-etcd/pkg/types"
 
 	"github.com/gogo/protobuf/proto"
 	"go.uber.org/zap"

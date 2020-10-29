@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/mvcc"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/mvcc"
 
 	"github.com/jonboulle/clockwork"
 	"go.uber.org/zap"

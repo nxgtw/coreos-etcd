@@ -18,7 +18,7 @@ package mirror
 import (
 	"context"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3"
 )
 
 const (

@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/concurrency"
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/leasing"
-	"github.com/nxgtw/go.etcd.io/etcd/integration"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
+	"github.com/nxgtw/dp-etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3/concurrency"
+	"github.com/nxgtw/dp-etcd/clientv3/leasing"
+	"github.com/nxgtw/dp-etcd/integration"
+	"github.com/nxgtw/dp-etcd/pkg/testutil"
 )
 
 func TestLeasingPutGet(t *testing.T) {

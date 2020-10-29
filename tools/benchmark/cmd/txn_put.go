@@ -22,8 +22,8 @@ import (
 	"os"
 	"time"
 
-	v3 "github.com/nxgtw/go.etcd.io/etcd/clientv3"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/report"
+	v3 "github.com/nxgtw/dp-etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/pkg/report"
 
 	"github.com/spf13/cobra"
 	"golang.org/x/time/rate"

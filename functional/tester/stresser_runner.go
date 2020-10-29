@@ -20,7 +20,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/nxgtw/go.etcd.io/etcd/functional/rpcpb"
+	"github.com/nxgtw/dp-etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
 	"golang.org/x/time/rate"

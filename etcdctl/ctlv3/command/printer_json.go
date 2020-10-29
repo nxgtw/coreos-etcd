@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3/snapshot"
+	"github.com/nxgtw/dp-etcd/clientv3/snapshot"
 )
 
 type jsonPrinter struct{ printer }

@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/clientv3"
+	"github.com/nxgtw/dp-etcd/clientv3"
 )
 
 // mustWaitPinReady waits up to 3-second until connection is up (pin endpoint).

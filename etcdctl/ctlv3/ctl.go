@@ -18,7 +18,7 @@ package ctlv3
 import (
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdctl/ctlv3/command"
+	"github.com/nxgtw/dp-etcd/etcdctl/ctlv3/command"
 
 	"github.com/spf13/cobra"
 )

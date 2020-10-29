@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/logutil"
+	"github.com/nxgtw/dp-etcd/pkg/logutil"
 
 	"google.golang.org/grpc/grpclog"
 )

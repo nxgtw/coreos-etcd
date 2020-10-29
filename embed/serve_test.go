@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nxgtw/go.etcd.io/etcd/auth"
+	"github.com/nxgtw/dp-etcd/auth"
 )
 
 // TestStartEtcdWrongToken ensures that StartEtcd with wrong configs returns with error.

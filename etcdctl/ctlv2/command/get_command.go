@@ -20,7 +20,7 @@ import (
 	"os"
 
 	"github.com/urfave/cli"
-	"github.com/nxgtw/go.etcd.io/etcd/client"
+	"github.com/nxgtw/dp-etcd/client"
 )
 
 // NewGetCommand returns the CLI command for "get".

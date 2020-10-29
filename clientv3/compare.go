@@ -15,7 +15,7 @@
 package clientv3
 
 import (
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
 )
 
 type CompareTarget int

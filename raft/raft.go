@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	pb "github.com/nxgtw/go.etcd.io/etcd/raft/raftpb"
+	pb "github.com/nxgtw/dp-etcd/raft/raftpb"
 )
 
 // None is a placeholder node ID used when there is no leader.

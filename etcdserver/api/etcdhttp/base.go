@@ -21,19 +21,19 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2error"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2http/httptypes"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/logutil"
-	"github.com/nxgtw/go.etcd.io/etcd/version"
+	"github.com/nxgtw/dp-etcd/etcdserver"
+	"github.com/nxgtw/dp-etcd/etcdserver/api"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2error"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2http/httptypes"
+	"github.com/nxgtw/dp-etcd/pkg/logutil"
+	"github.com/nxgtw/dp-etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"
 )
 
 var (
-	plog = capnslog.NewPackageLogger("github.com/nxgtw/go.etcd.io/etcd", "etcdserver/api/etcdhttp")
+	plog = capnslog.NewPackageLogger("github.com/nxgtw/dp-etcd", "etcdserver/api/etcdhttp")
 	mlog = logutil.NewMergeLogger(plog)
 )
 

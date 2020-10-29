@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	lockpb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3lock/v3lockpb"
-	pb "github.com/nxgtw/go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/testutil"
+	lockpb "github.com/nxgtw/dp-etcd/etcdserver/api/v3lock/v3lockpb"
+	pb "github.com/nxgtw/dp-etcd/etcdserver/etcdserverpb"
+	"github.com/nxgtw/dp-etcd/pkg/testutil"
 )
 
 // TestV3LockLockWaiter tests that a client will wait for a lock, then acquire it

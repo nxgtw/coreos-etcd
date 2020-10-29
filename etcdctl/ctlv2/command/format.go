@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nxgtw/go.etcd.io/etcd/client"
+	"github.com/nxgtw/dp-etcd/client"
 )
 
 // printResponseKey only supports to print key correctly.

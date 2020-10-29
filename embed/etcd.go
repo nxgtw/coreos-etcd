@@ -29,18 +29,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/etcdhttp"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/rafthttp"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2http"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2v3"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3client"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v3rpc"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/debugutil"
-	runtimeutil "github.com/nxgtw/go.etcd.io/etcd/pkg/runtime"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/transport"
-	"github.com/nxgtw/go.etcd.io/etcd/pkg/types"
-	"github.com/nxgtw/go.etcd.io/etcd/version"
+	"github.com/nxgtw/dp-etcd/etcdserver"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/etcdhttp"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/rafthttp"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2http"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2v3"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v3client"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v3rpc"
+	"github.com/nxgtw/dp-etcd/pkg/debugutil"
+	runtimeutil "github.com/nxgtw/dp-etcd/pkg/runtime"
+	"github.com/nxgtw/dp-etcd/pkg/transport"
+	"github.com/nxgtw/dp-etcd/pkg/types"
+	"github.com/nxgtw/dp-etcd/version"
 
 	"github.com/coreos/pkg/capnslog"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
@@ -50,7 +50,7 @@ import (
 	"google.golang.org/grpc/keepalive"
 )
 
-var plog = capnslog.NewPackageLogger("github.com/nxgtw/go.etcd.io/etcd", "embed")
+var plog = capnslog.NewPackageLogger("github.com/nxgtw/dp-etcd", "embed")
 
 const (
 	// internal fd usage includes disk usage and transport usage.

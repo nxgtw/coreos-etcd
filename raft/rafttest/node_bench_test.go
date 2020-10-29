@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nxgtw/go.etcd.io/etcd/raft"
+	"github.com/nxgtw/dp-etcd/raft"
 )
 
 func BenchmarkProposal3Nodes(b *testing.B) {

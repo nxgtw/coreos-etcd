@@ -20,9 +20,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2auth"
-	"github.com/nxgtw/go.etcd.io/etcd/etcdserver/api/v2http/httptypes"
+	"github.com/nxgtw/dp-etcd/etcdserver/api"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2auth"
+	"github.com/nxgtw/dp-etcd/etcdserver/api/v2http/httptypes"
 
 	"go.uber.org/zap"
 )
